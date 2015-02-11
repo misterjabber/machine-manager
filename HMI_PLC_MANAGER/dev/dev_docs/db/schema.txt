@@ -1,0 +1,48 @@
+system_rev
+	full_rev
+	inc_rev
+	machine: HC ? PLC
+	code_base: HMI ? Fusion
+
+saved_file
+	id
+	uploadDate			
+	machine_type: HC ? Fusion
+	code_base: HMI ? PLC
+	fileName
+	descriptionOfChanges	
+	releaseType	
+	version
+
+
+customer
+	id
+	created_on
+	name	
+	has_hc		
+	has_fusion		
+customer_fusion
+	id
+	created_on
+	customer_id
+	customer_name	
+	last_hmi_update (this changes when the current hmi file is changed)		
+	current_hmi_file_id		
+	current_hmi		
+	current_hmi_version		
+	last_plc_update (this changes when the current plc file is changed)		
+	current_plc_file_id	
+	current_plc		
+	current_plc_version		
+customer_notes
+	id
+	created_on
+	customer_id
+	note
+customer_previous_file
+	id
+	created_on
+	customer_id
+	file_id
+	machine: HC ? Fusion
+	code_base: HMI ? Fusion

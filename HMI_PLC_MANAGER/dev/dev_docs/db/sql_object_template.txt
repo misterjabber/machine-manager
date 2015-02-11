@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `parts` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `part_number` varchar(13) DEFAULT NULL,
+  `date_created` date NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3739 ;

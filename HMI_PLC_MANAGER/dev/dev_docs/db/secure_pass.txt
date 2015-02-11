@@ -1,0 +1,5 @@
+wJi2Klo3Bqlks098HM
+
+
+CREATE USER 'sec_qtmi'@'localhost' IDENTIFIED BY 'wJi2Klo3Bqlks098HM';
+GRANT SELECT, INSERT, UPDATE ON `secure_login`.* TO 'sec_user'@'localhost';
