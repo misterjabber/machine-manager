@@ -9,6 +9,7 @@
 * * * * *  rsync -avz -e "ssh -i /home/warren/cron/thishost-rsync-key" /home/warren/QTMI_Manager_server/error_logs/ warren@162.242.221.50:/home/warren/web/HMI_PLC_MANAGER/customers/error_logs
 
 /*this is just a blank note*/
+/*this is another blank note*/
 
 
 * * * * *  php /home/warren/QTMI_Manager_server/cronController.php
