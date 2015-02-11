@@ -1,6 +1,10 @@
 <?php
 include_once 'global_includes.php';
 
+/*
+This note will just be to test commiting, and merging from an external account
+*/
+
 $linkMaker = new linkMaker();
 ?>
 
